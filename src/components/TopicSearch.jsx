@@ -9,12 +9,12 @@ const TopicSearch = () => {
     { id: 3, name: "Number Theory", category: "Mathematics" },
     { id: 4, name: "Indian Polity", category: "Civics" },
     { id: 5, name: "Organic Chemistry", category: "Chemistry" },
-  ];
+  ]; 
 
   const gradientCards = [
     "linear-gradient(135deg, #ff9a9e, #fad0c4)",
     "linear-gradient(135deg, #a18cd1, #fbc2eb)",
-    "linear-gradient(135deg, #fcb69f, #ffecd2)",
+    "linear-gradient(135deg, #fcb69f, #ffecd2)", 
     "linear-gradient(135deg, #84fab0, #8fd3f4)",
     "linear-gradient(135deg, #ffdde1, #ee9ca7)",
   ];
