@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# 📚 TOTLE – Topic Browser (Frontend Developer Intern Round 1)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, fast, and user-friendly React component that allows browsing and searching academic topics.  
+This was built as part of the **TOTLE Frontend Developer Intern – Round 1 Coding Submission**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Project Overview
 
-### `npm start`
+This project implements a **Topic Search Component** where users can:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View a list of topics
+- Search topics by name (**case-insensitive**)
+- See results update instantly as they type
+- View beautifully styled **gradient topic cards**
+- Get a “No topics found” message when there are no matches
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The UI is purposely kept **simple, modern, and responsive**, representing a clean browsing experience similar to TOTLE’s Catalogue Management System.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features
 
-### `npm run build`
+### 🔍 **Real-time Search**
+Filters topics instantly as the user types — fully case-insensitive.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎨 **Colorful Gradient Topic Cards**
+Each topic card has a unique soft gradient, giving a premium modern UI feel.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ⚡ **Fast & Lightweight**
+Pure React, no external libraries required.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📦 **In-Memory Data**
+Topics are stored locally in an array (as required).
 
-### `npm run eject`
+### ❌ **Graceful Empty State**
+Shows a friendly message when no results are found.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🗂 Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+totle-topic-browser/
+│
+├── src/
+│ ├── components/
+│ │ └── TopicSearch.jsx
+│ ├── App.jsx
+│ ├── index.js
+│
+├── public/
+│
+├── package.json
+│
+├── README.md
+└── demo-video.mp4
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ How to Run the Project Locally
 
-## Learn More
+1. **Clone the repository**
+git clone https://github.com/Shantanu01B/totle-topic-browser.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Navigate into the project**
+cd totle-topic-browser
+3. **Install dependencies**
+npm install
 
-### Code Splitting
+4. **Start the development server**
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Your app will be live at:
 
-### Analyzing the Bundle Size
+👉 **http://localhost:3000**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔎 Code Flow Explanation (Short & Clear)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### `App.jsx`
+- Imports and renders the `TopicSearch` component.
 
-### Advanced Configuration
+### `TopicSearch.jsx`
+- Stores search input using `useState`
+- Contains a predefined topics array (Physics, Biology, Maths, etc.)
+- Filters topics dynamically as the user types
+- Maps through filtered topics and renders **gradient cards**
+- Displays “No topics found” when the search has zero matches
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🎥 Demo Video (Explanation)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+I have included a **2-minute explanation video** inside this repository as required.
 
-### `npm run build` fails to minify
+You can also view it here:  
+👉 https://drive.google.com/file/d/1zXrygDzwRrpGZDzp04ka4SDMSiXNupb-/view?usp=sharing
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔗 GitHub Repository Link
+
+👉 **https://github.com/Shantanu01B/totle-topic-browser**
+
+---
+
+## 👨‍💻 Developed By  
+**Shantanu Barge**  
+Frontend Developer • MERN Stack
+
+---
+
+
